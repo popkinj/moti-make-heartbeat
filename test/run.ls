@@ -1,8 +1,8 @@
 makeHeartbeat = require "#{__dirname}/../lib/ls/index"
 
 options = do
-  numSigns: 1
-  numCorridors: 60
+  numSigns: 60
+  numCorridors: 3
   historySize: 10
 
-console.log 'Testing heatbeat', makeHeartbeat.create options
+console.log 'Testing heartbeat', makeHeartbeat.create options
