@@ -1,0 +1,15 @@
+{
+  "name": "moti-make-heartbeat",
+  "version": "0.0.1",
+  "description": "Create fake payload data for testing the Variable Speed Sign application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/popkinj/moti-make-heartbeat"
+  },
+  "author": "Jamie Popkin <popkinj@littleearth.ca> (https://littleearth.ca)",
+  "license": "MIT"
+}
