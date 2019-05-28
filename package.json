@@ -13,6 +13,7 @@
   "author": "Jamie Popkin <popkinj@littleearth.ca> (https://littleearth.ca)",
   "license": "MIT",
   "dependencies": {
-    "livescript": "^1.6.0"
+    "livescript": "^1.6.0",
+    "moti-make-sign": "^1.0.0"
   }
 }
