@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/popkinj/moti-make-heartbeat"
+    "url": "git@github.com/popkinj/moti-make-heartbeat.git"
   },
   "author": "Jamie Popkin <popkinj@littleearth.ca> (https://littleearth.ca)",
   "license": "MIT"
