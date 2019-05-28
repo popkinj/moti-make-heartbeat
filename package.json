@@ -4,7 +4,7 @@
   "description": "Create fake payload data for testing the Variable Speed Sign application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/livescript/bin/lsc test/run.ls"
   },
   "repository": {
     "type": "git",
@@ -14,6 +14,6 @@
   "license": "MIT",
   "dependencies": {
     "livescript": "^1.6.0",
-    "moti-make-sign": "^1.0.0"
+    "moti-make-sign": "^1.0.1"
   }
 }
