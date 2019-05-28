@@ -11,5 +11,8 @@
     "url": "git@github.com/popkinj/moti-make-heartbeat.git"
   },
   "author": "Jamie Popkin <popkinj@littleearth.ca> (https://littleearth.ca)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "livescript": "^1.6.0"
+  }
 }
