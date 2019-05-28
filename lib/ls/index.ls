@@ -1,5 +1,5 @@
 require! {
-  \moti-make-sign # maps to motiCreateSign
+  \moti-make-sign # maps to motiMakeSign
 }
 
 create = (o) -> o

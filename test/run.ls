@@ -5,4 +5,4 @@ options = do
   numCorridors: 60
   historySize: 10
 
-#console.log 'Testing heatbeat', makeHeartbeat.create options
+console.log 'Testing heatbeat', makeHeartbeat.create options
