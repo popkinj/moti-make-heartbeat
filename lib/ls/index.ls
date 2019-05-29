@@ -2,8 +2,9 @@ require! {
   \moti-make-sign # maps to motiMakeSign
 }
 
-create = (o) -> o
+heartbeat = (o) ->
+  motiMakeSign.create.full!
 
 module.exports = {
-  create
+  heartbeat
 }
