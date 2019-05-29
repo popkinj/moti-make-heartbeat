@@ -14,6 +14,6 @@
   "license": "MIT",
   "dependencies": {
     "livescript": "^1.6.0",
-    "moti-make-sign": "^1.0.4"
+    "moti-make-sign": "^1.0.5"
   }
 }
