@@ -1,6 +1,6 @@
 {
   "name": "moti-make-heartbeat",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Create fake payload data for testing the Variable Speed Sign application.",
   "main": "index.js",
   "scripts": {
