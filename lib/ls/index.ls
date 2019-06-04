@@ -6,7 +6,7 @@ require! {
 heartbeat = (o) ->
   numSigns = if o?numSigns then that else 1
   numCorridors = if o?numCorridors then that else 1
-  historySize = if o.historySize then that else 5
+  historySize = if o?historySize then that else 5
 
   corridorSize = Math.floor(numSigns / numCorridors)
 
