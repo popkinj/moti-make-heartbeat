@@ -15,6 +15,6 @@
   "dependencies": {
     "livescript": "^1.6.0",
     "moment": "^2.24.0",
-    "moti-make-sign": "^2.0.0"
+    "moti-make-sign": "^2.0.1"
   }
 }

@@ -49,7 +49,7 @@ heartbeat = (o) ->
 
     for [1 to corridorSize]
       ++segmentId
-      direction = if Math.random! > 0.5 then 'North' else 'South'
+      direction = if Math.random! > 0.5 then "North" else "South"
       s = motiMakeSign.create.full {historySize, segmentId, direction}
       segments.push s
 
