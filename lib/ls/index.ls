@@ -44,7 +44,6 @@ heartbeat = (o) ->
 
   for corridorId in [1 to numCorridors]
     corridorName = "Corridor #corridorId"
-    isCorridorEnabled = yes
     segments = []
 
     for [1 to corridorSize]
@@ -56,7 +55,6 @@ heartbeat = (o) ->
     heartbeat.corridors.push {
       corridorId
       corridorName
-      isCorridorEnabled
       segments
     }
 
