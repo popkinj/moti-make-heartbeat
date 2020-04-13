@@ -3,6 +3,33 @@ require! {
   \moti-make-sign # maps to motiMakeSign
 }
 
+# Create random method for all arrays
+Array.prototype.rand = -> @[Math.floor(Math.random() * @length)]
+
+/* ## randomLocation
+  @return {string} Random fake location name
+ */
+randomLocation = ->
+  [
+    'Tetcote Bridge'
+    'Glonthfield'
+    'Ademore Lake'
+    'Gestow Castle'
+    'Plounsthome'
+    'Trecombe'
+  ].rand!
+
+/* ## randomDirection
+  @return {string} Random direction
+ */
+randomDirection = ->
+  [
+    'north'
+    'south'
+    'east'
+    'west'
+  ].rand!
+
 /* ## header
   Create the header object
   @param o {object} Options for creating header
@@ -44,6 +71,11 @@ heartbeat = (o) ->
 
   for corridorId in [1 to numCorridors]
     corridorName = "Corridor #corridorId"
+
+    corridorDescs = {}
+    corridorDescs[randomDirection!] = "#{randomLocation!} to #{randomLocation!}"
+    corridorDescs[randomDirection!] = "#{randomLocation!} to #{randomLocation!}"
+
     segments = []
 
     for [1 to corridorSize]
@@ -55,6 +87,7 @@ heartbeat = (o) ->
     heartbeat.corridors.push {
       corridorId
       corridorName
+      corridorDescs
       segments
     }
 
