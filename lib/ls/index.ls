@@ -19,17 +19,6 @@ randomLocation = ->
     'Trecombe'
   ].rand!
 
-/* ## randomDirection
-  @return {string} Random direction
- */
-randomDirection = ->
-  [
-    'north'
-    'south'
-    'east'
-    'west'
-  ].rand!
-
 /* ## header
   Create the header object
   @param o {object} Options for creating header
@@ -73,8 +62,8 @@ heartbeat = (o) ->
     corridorName = "Corridor #corridorId"
 
     corridorDescs = {}
-    corridorDescs[randomDirection!] = "#{randomLocation!} to #{randomLocation!}"
-    corridorDescs[randomDirection!] = "#{randomLocation!} to #{randomLocation!}"
+    corridorDescs.east = "#{randomLocation!} to #{randomLocation!}"
+    corridorDescs.west = "#{randomLocation!} to #{randomLocation!}"
 
     segments = []
 
