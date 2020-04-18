@@ -30,7 +30,7 @@ header = (o) ->
   fromBusinessSystemVersion = if o?fromBusinessSystemVersion then that else "version 2"
   fromEnvironment           = if o?fromEnvironment then that else "DEV"
   targetEnvironment         = if o?targetEnvironment then that else "DEV"
-  messageSchemaVersion      = if o?messageSchemaVersion then that else "version 1.5.0"
+  messageSchemaVersion      = if o?messageSchemaVersion then that else "v1.5.0"
   messageSendDateTime       = if o?messageSendDateTime then that else moment.utc!format('YYYY-MM-DDTHH:mm:ss') + 'Z'
   messageUuid               = if o?messageUuid then that else "d33a9e93-8fce-4dd0-84a0-54e9e1606bbc"
 
