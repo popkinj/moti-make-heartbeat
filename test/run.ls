@@ -5,7 +5,7 @@ options = do
   numSigns: 1
   numCorridors: 1
   historySize: 1
-  header: fromEnvironment: 'PROD'
+  header: fromEnvironment: 'BLAH'
 
 options
   |> makeHeartbeat.heartbeat
