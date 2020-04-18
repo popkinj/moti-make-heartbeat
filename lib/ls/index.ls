@@ -62,8 +62,8 @@ heartbeat = (o) ->
     corridorName = "Corridor #corridorId"
 
     corridorDescs = {}
-    corridorDescs.east = "#{randomLocation!} to #{randomLocation!}"
-    corridorDescs.west = "#{randomLocation!} to #{randomLocation!}"
+    corridorDescs.north = "#{randomLocation!} to #{randomLocation!}"
+    corridorDescs.south = "#{randomLocation!} to #{randomLocation!}"
 
     segments = []
 
